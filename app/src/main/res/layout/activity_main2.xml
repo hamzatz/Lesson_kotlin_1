@@ -6,17 +6,23 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity2">
 
-    <TextView
-        android:id="@+id/text_view"
+    <EditText
+        android:id="@+id/edit_text_2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
-        android:layout_centerInParent="true"
         android:layout_alignParentStart="true"
-        android:layout_alignParentRight="true"
-        style="@style/MyTextStyle"
-        android:textSize="@dimen/my_value"
-        tools:ignore="RtlHardcoded"/>
-
+        android:layout_centerInParent="true"
+        />
+    <Button
+        android:id="@+id/button_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edit_text_2"
+        android:layout_centerHorizontal="true"
+        android:text="@string/go"
+        style="@style/MyTextStyle2"
+        android:background="@drawable/btn_style"
+        android:textColor="@color/red"
+        />
 
 </RelativeLayout>

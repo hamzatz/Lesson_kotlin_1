@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">Lesson1</string>
     <string name="save">SAVE</string>
+    <string name="go">GO</string>
 </resources>

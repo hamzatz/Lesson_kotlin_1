@@ -1,4 +1,4 @@
-package com.e.lesson1.utils
+package com.e.lesson1.extensions
 
 import android.content.Context
 import android.widget.Toast
